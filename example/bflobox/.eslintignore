@@ -1,0 +1,3 @@
+# Ignore the service worker because eslint complains about 4 console.log()
+# statements. This file is auto-generated with create-react-app.
+src/serviceWorker.ts
