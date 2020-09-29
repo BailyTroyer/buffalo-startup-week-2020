@@ -1,0 +1,62 @@
+import { themes, Split } from 'mdx-deck'
+import { Box } from 'theme-ui'
+
+export const theme = themes.code
+
+# From Localhost to Prod
+
+## @Baily Troyer
+
+---
+
+# Who is this guy?
+
+* SWE @ [ACV Auctions](https://www.acvauctions.com/)
+* Former CSE @ [UB](https://www.buffalo.edu/)
+* Buffalo Native 🐃
+* PC Gamer, hot-tub lover and cheap beer connoisseur
+
+---
+
+
+# What even is this presentation
+
+* You have a site and API but no where to put it?
+* It’s not only for neckbeards and senior engineers
+* A few configurations can go far
+
+
+“It’s so easy a C-Level could do it” - not a Geico caveman 
+
+---
+
+# What is our "pipeline" of events?
+
+* Go through the example Repo
+* A quick intro with Docker, make and our repo’s “steps” to deploy
+* Pushing to ECR, and navigating AWS
+* Create a domain, hosted zone, SSL cert in AWS
+* Create a K8s cluster with KOPS & Helm Chart
+* Create a CI/CD pipeline in Github Actions
+* Create an S3 bucket and CloudFront distribution
+* Watch it all fall into place 👁️👄👁️
+
+---
+
+# One more thing
+
+* If you’re an SRE, none of this is new
+* There are things we could setup to further productionalize this environment
+    * Monitoring?
+    * Metric collection & logs?
+    * Auto scaling pods?
+    * Using something besides the default VPC?!
+    * AWS Security Groups
+    * What about databases like RDS?
+    * What if we used terraform because AWS console bad
+
+---
+
+## That's it; thanks y'all 🙂
+
+You can find me on [LinkedIn](https://www.linkedin.com/in/bailytroyer/), [Github](https://github.com/BailyTroyer/)

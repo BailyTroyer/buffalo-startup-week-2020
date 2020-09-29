@@ -1,0 +1,11 @@
+version: '3'
+services:
+  web:
+    image: bflobox:latest
+    command: yarn start
+    ports:
+      - 3000:3000
+    volumes:
+      - ./src:/node/src
+      - ./public:/node/public
+      - ./.env.production:/node/.env.production
