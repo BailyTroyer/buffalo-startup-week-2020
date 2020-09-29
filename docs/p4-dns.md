@@ -42,3 +42,5 @@ To add that entry go back to **Route53**, select **Hosted Zones > {YOUR HOSTED Z
 After that select **CNAME** and enter the value you were given back in Cert Manager which looked like `fdafdsa.fdsafd.acm-validations.aws.`
 
 Select **Define Simple Record > Create Records** and then grab a coffee. This takes a few minutes. After that you should be all green and that cert is setup and ready-to-use. 
+
+## [[Next Section] (Part 5: KOPS & K8s)](p5-kops.md)

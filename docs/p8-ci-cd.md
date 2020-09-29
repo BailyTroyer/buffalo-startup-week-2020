@@ -1,4 +1,4 @@
-# Part 7 (CI/CD ft. Github Actions)
+# Part 8 (CI/CD ft. Github Actions)
 
 ## Overview
 
