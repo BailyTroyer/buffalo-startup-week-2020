@@ -8,6 +8,6 @@ COPY cmd cmd/
 COPY internal internal/
 RUN GOOS=linux CGO_ENABLED=0 go build -o /go/bin/bflobox-api ./cmd/main.go
 
-# FROM scratch
-# COPY --from=builder /go/bin/bflobox-api /go/bin/bflobox-api
+FROM scratch
+COPY --from=builder /go/bin/bflobox-api /go/bin/bflobox-api
 ENTRYPOINT ["/go/bin/bflobox-api"]
