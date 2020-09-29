@@ -67,10 +67,4 @@ Then select **Create Distribution** ...
 
 From there your distribution will have a domain name that goes directly to our webapp example that we pushed to s3. The last final touch would be creating a `CNAME` Route53 entry for www.bflobox.com and bflobox.com that maps to our distributon: `fdsaffdafds.cloudfront.net`
 
-
-
-```
-$ aws cloudfront create-distribution \
-    --origin-domain-name awsexamplebucket.s3.amazonaws.com \
-    --default-root-object index.html
-```
+## [[Next Section] (Part 7: Kubectl & Helm)](p7-kubectl-helm.md)

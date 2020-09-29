@@ -36,3 +36,5 @@ We just built our API and pushed it to ECR. That's great progress but there's mu
 1. Run our API in k8s, exposing our service running on port `8080` behind an AWS ELB
 2. Register our domain, create a hosted zone, and generate a TLS cert
 3. Back-track, and get our website stored in an S3 bucket, hosted on a global CDN using CloudFront.
+
+## [[Next Section] (Part 4: DNS)](p4-dns.md)
